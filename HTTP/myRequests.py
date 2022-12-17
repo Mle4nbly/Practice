@@ -1,6 +1,8 @@
 import requests
 from pprint import pprint
 
+#1 задание
+
 url = "https://akabab.github.io/superhero-api/api/all.json"
 resp = requests.get(url)
 
@@ -24,8 +26,10 @@ def comparision_of_superhero(powerstat):
             print(f'Наибольший показатель {powerstat} у {name} - {attribute_dict[name]}')
 
 if __name__ == '__main__':
-    get_status_request()
-    find_id_superhero('Thanos')
-    comparision_of_superhero('intelligence')
+#    get_status_request()
+#    find_id_superhero()
+    comparision_of_superhero('speed')
+
+#2 задание
 
 
