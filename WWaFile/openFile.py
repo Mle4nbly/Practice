@@ -1,6 +1,6 @@
 import os
 
-#1 и 2 задания:
+# 1 и 2 задания:
 
 cook_book = {
   'Омлет': [
@@ -21,7 +21,7 @@ cook_book = {
     ]
   }
 
-#Принимает название блюд, количество персон, выдаёт список нужных продуктов.
+# Принимает название блюд, количество персон, выдаёт список нужных продуктов.
 def get_shop_list_by_dishes(dishes, count):
   shop_list = {}
   for dish in dishes:
@@ -34,7 +34,7 @@ def get_shop_list_by_dishes(dishes, count):
         
 get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2)
 
-#Переносит словарь cookbook в текстовый документ.
+# Переносит словарь cookbook в текстовый документ.
 def rewrite_the_cookbook():
   with open('recipe_book.txt', 'w') as recipe_book:
     for dish in cook_book.keys():
@@ -45,7 +45,7 @@ def rewrite_the_cookbook():
 
 rewrite_the_cookbook()
 
-#3 задание
+# 3 задание
 
 location = 'C:\Milkbusiness\Codes\WF\Files'
 base_path = os.getcwd()
