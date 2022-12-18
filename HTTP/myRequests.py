@@ -35,5 +35,5 @@ def comparision_of_superhero(powerstat):
 if __name__ == '__main__':
     # get_status_request()
     # find_id_superhero()
-    comparision_of_superhero('speed')
+    comparision_of_superhero('intelligence')
 

@@ -17,6 +17,15 @@ class YaUploader:
         resp = requests.get(upload_url, params=params, headers=headers)
         return resp.json()
 
+    def delete_folder(self, folder_name):
+        self.folder_name = folder_name
+        params = {'path': folder_name}
+        headers = {
+            'Content-Type': 'application/json',
+            'Authorization': f'OAuth {self.token}'
+        }
+        requests.delete(url, params=params, headers=headers)
+
     def create_folder(self, folder_name):
         self.folder_name = folder_name
         params = {'path': folder_name}
@@ -24,8 +33,7 @@ class YaUploader:
             'Content-Type': 'application/json',
             'Authorization': f'OAuth {self.token}'
         }
-        resp = requests.put(url, params=params, headers=headers)
-        return resp.json()
+        requests.put(url, params=params, headers=headers)
 
     def upload_file_on_disk(self, path_to_file):
         for filename in list(os.listdir(os.path.join(os.getcwd(), path_to_file))):
@@ -42,9 +50,13 @@ if __name__ == '__main__':
     token = 'y0_AgAAAAAmQ5ysAADLWwAAAADXF_I7rUswRmYPT0OSMgOGehlpZikytNY'
     upload_url = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
     url = 'https://cloud-api.yandex.net/v1/disk/resources'
+    folder_name = 'Avatars'
     uploader = YaUploader(token)
-    pprint(uploader.create_folder('Avatars'))
+    uploader.delete_folder(folder_name)
+    uploader.create_folder(folder_name)
     result = uploader.upload_file_on_disk(path_to_files)
+    
+   
     
 
 
