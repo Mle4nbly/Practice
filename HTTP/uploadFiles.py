@@ -24,7 +24,8 @@ class YaUploader:
             'Content-Type': 'application/json',
             'Authorization': f'OAuth {self.token}'
         }
-        requests.delete(url, params=params, headers=headers)
+        resp = requests.delete(url, params=params, headers=headers)
+        return resp.json()
 
     def create_folder(self, folder_name):
         self.folder_name = folder_name
@@ -33,7 +34,8 @@ class YaUploader:
             'Content-Type': 'application/json',
             'Authorization': f'OAuth {self.token}'
         }
-        requests.put(url, params=params, headers=headers)
+        resp = requests.put(url, params=params, headers=headers)
+        return resp.json()
 
     def upload_file_on_disk(self, path_to_file):
         for filename in list(os.listdir(os.path.join(os.getcwd(), path_to_file))):
@@ -47,13 +49,13 @@ class YaUploader:
 if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
     path_to_files = 'C:\Milkbusiness\Codes\myPractice\HTTP\Files'
-    token = 'y0_AgAAAAAmQ5ysAADLWwAAAADXF_I7rUswRmYPT0OSMgOGehlpZikytNY'
+    token = ''
     upload_url = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
     url = 'https://cloud-api.yandex.net/v1/disk/resources'
     folder_name = 'Avatars'
     uploader = YaUploader(token)
-    uploader.delete_folder(folder_name)
-    uploader.create_folder(folder_name)
+    pprint(uploader.delete_folder(folder_name))
+    pprint(uploader.create_folder(folder_name))
     result = uploader.upload_file_on_disk(path_to_files)
     
    
