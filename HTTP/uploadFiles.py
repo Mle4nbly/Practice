@@ -8,6 +8,7 @@ class YaUploader:
     def __init__(self, token: str):
         self.token = token
     
+    # Функция для получения URL загрузки..
     def get_upload_url(self, file_path_on_disk):
         headers = {
             'Content-Type': 'application/json',
@@ -17,6 +18,7 @@ class YaUploader:
         resp = requests.get(upload_url, params=params, headers=headers)
         return resp.json()
 
+    # Функция для удаления существующего пути (чтобы программа успешно сработала)..
     def delete_folder(self, folder_name):
         self.folder_name = folder_name
         params = {'path': folder_name}
@@ -27,6 +29,7 @@ class YaUploader:
         resp = requests.delete(url, params=params, headers=headers)
         return resp.json()
 
+    # Функция для создания новой папки для загружаемых с компьютера файлов..
     def create_folder(self, folder_name):
         self.folder_name = folder_name
         params = {'path': folder_name}
@@ -37,6 +40,7 @@ class YaUploader:
         resp = requests.put(url, params=params, headers=headers)
         return resp.json()
 
+    # Функция для загрузки файлов в папку на Яндекс.Диск..
     def upload_file_on_disk(self, path_to_file):
         for filename in list(os.listdir(os.path.join(os.getcwd(), path_to_file))):
             self.path_to_file = path_to_file
@@ -47,7 +51,6 @@ class YaUploader:
                 print('Success')
 
 if __name__ == '__main__':
-    # Получить путь к загружаемому файлу и токен от пользователя
     path_to_files = 'C:\Milkbusiness\Codes\myPractice\HTTP\Files'
     token = ''
     upload_url = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
