@@ -42,7 +42,7 @@ class YaUploader:
 
     # Функция для загрузки файлов в папку на Яндекс.Диск..
     def upload_file_on_disk(self, path_to_file):
-        for filename in list(os.listdir(os.path.join(os.getcwd(), path_to_file))):
+        for filename in list(os.listdir(os.path.join(os.getcwd(), path_to_file))): 
             self.path_to_file = path_to_file
             result = self.get_upload_url(file_path_on_disk=f'Avatars/{filename}')
             href = result.get("href", "")
@@ -52,7 +52,7 @@ class YaUploader:
 
 if __name__ == '__main__':
     path_to_files = 'C:\Milkbusiness\Codes\myPractice\HTTP\Files'
-    token = ''
+    token = 'y0_AgAAAAAmQ5ysAADLWwAAAADXLPy7JL8TpWoGQ36N2XTnnM0Ist1VEJ0'
     upload_url = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
     url = 'https://cloud-api.yandex.net/v1/disk/resources'
     folder_name = 'Avatars'
