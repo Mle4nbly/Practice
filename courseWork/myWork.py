@@ -11,14 +11,14 @@ class PhotoInfo:
         self.params = {'access_token': self.token, 'v': self.version}
         self.url = 'https://api.vk.com/method/'
 
-    def id_translate(self):
+    def id_translate(self): #Метод для перевода ID пользователя в числовой вид.
         url = self.url + 'users.get'
         params = {'user_ids': self.user_id}
         resp = requests.get(url, params={**self.params, **params})
         for user_info in resp.json()['response']:
             self.id = user_info['id']
 
-    def photo_info(self):
+    def photo_info(self): #Метод для получения информации по фотографиям.
         url = self.url + 'photos.get'
         params = {'owner_id': self.id, 'extended': 1, 'album_id': 'profile'}
         self.resp = requests.get(url, params={**self.params, **params})
@@ -34,7 +34,7 @@ class YaUploader:
         }
         self.url = 'https://cloud-api.yandex.net/v1/disk/resources'
 
-    def photo_uploader(self):
+    def photo_uploader(self): #Метод для загрузки фотографий на ЯД.
         url = self.url + '/upload'
         name_list = []
         value_for_json = []
@@ -42,7 +42,7 @@ class YaUploader:
         with open(os.path.join('C:\Milkbusiness\Codes\myPractice\courseWork','file_info.json'), 'w') as f:
             for photos_info in PI.resp.json()['response']['items']:
                 sizes_list = []
-
+                
                 for photo_sizes in photos_info['sizes']:
                     sizes_list.append(photo_sizes['height'])
                 
