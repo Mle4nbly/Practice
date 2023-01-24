@@ -4,15 +4,15 @@ import json
 import os
 
 class PhotoInfo:
-    def __init__(self, token: str, user_id: bool, version='5.131'):
+    def __init__(self, token: str, version='5.131'):
         self.token = token
-        self.user_id = user_id
         self.version = version
         self.params = {'access_token': self.token, 'v': self.version}
         self.url = 'https://api.vk.com/method/'
 
-    def id_translate(self): #Метод для перевода ID пользователя в числовой вид.
+    def id_translate(self, user_id): #Метод для перевода ID пользователя в числовой вид.
         url = self.url + 'users.get'
+        self.user_id = user_id
         params = {'user_ids': self.user_id}
         resp = requests.get(url, params={**self.params, **params})
         for user_info in resp.json()['response']:
@@ -25,8 +25,7 @@ class PhotoInfo:
         return self.resp.json()
                 
 class YaUploader:
-    def __init__(self, token: str, folder_name):
-        self.folder_name = folder_name
+    def __init__(self, token: str):
         self.token = token
         self.headers = {
             'Content-Type': 'application/json',
@@ -34,9 +33,10 @@ class YaUploader:
         }
         self.url = 'https://cloud-api.yandex.net/v1/disk/resources'
 
-    def create_folder(self): #Метод для создания папки на ЯД.
-        params = {'path': folder_name}
-        resp = requests.put(self.url, params=params, headers=self.headers)
+    def create_folder(self, folder_name): #Метод для создания папки на ЯД.
+        self.folder_name = folder_name
+        self.path = {'path': self.folder_name}
+        resp = requests.put(self.url, params=self.path, headers=self.headers)
         return resp.json()
 
     def photo_uploader(self): #Метод для загрузки фотографий на ЯД.
@@ -93,9 +93,9 @@ if __name__ == '__main__':
     ya_token = input('Введите ключ ЯД API:')
     folder_name = input('Введите название папки на ЯД, в которую хотите сохранить фотографии(Если нет папки просто нажмите Enter):')
     vk_token = input('Введите ключ VK API:')
-    pi = PhotoInfo(token=vk_token, user_id=user_id)
-    yu = YaUploader(token=ya_token, folder_name=folder_name)
-    yu.create_folder()
-    pi.id_translate()
+    pi = PhotoInfo(token=vk_token)
+    yu = YaUploader(token=ya_token)
+    yu.create_folder(folder_name=folder_name)
+    pi.id_translate(user_id=user_id)
     pprint(pi.photo_info())
     pprint(yu.photo_uploader())
