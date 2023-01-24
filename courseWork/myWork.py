@@ -34,13 +34,18 @@ class YaUploader:
         }
         self.url = 'https://cloud-api.yandex.net/v1/disk/resources'
 
+    def create_folder(self): #Метод для создания папки на ЯД.
+        params = {'path': folder_name}
+        resp = requests.put(self.url, params=params, headers=self.headers)
+        return resp.json()
+
     def photo_uploader(self): #Метод для загрузки фотографий на ЯД.
         url = self.url + '/upload'
         name_list = []
         value_for_json = []
         for_json = {}
-        with open(os.path.join('C:\Milkbusiness\Codes\myPractice\courseWork','file_info.json'), 'w') as f:
-            for photos_info in PI.resp.json()['response']['items']:
+        with open(os.path.join(os.path.dirname(__file__),'file_info.json'), 'w') as f:
+            for photos_info in pi.resp.json()['response']['items']:
                 sizes_list = []
                 
                 for photo_sizes in photos_info['sizes']:
@@ -85,11 +90,12 @@ class YaUploader:
                     
 if __name__ == '__main__':
     user_id = input('ID вашего профиля:')
-    ya_token = input('Введи ключ Яндекс.Д API:')
+    ya_token = input('Введите ключ ЯД API:')
     folder_name = input('Введите название папки на ЯД, в которую хотите сохранить фотографии(Если нет папки просто нажмите Enter):')
-    vk_token = ''
-    PI = PhotoInfo(token=vk_token, user_id=user_id)
-    YU = YaUploader(token=ya_token, folder_name=folder_name)
-    PI.id_translate()
-    pprint(PI.photo_info())
-    pprint(YU.photo_uploader())
+    vk_token = input('Введите ключ VK API:')
+    pi = PhotoInfo(token=vk_token, user_id=user_id)
+    yu = YaUploader(token=ya_token, folder_name=folder_name)
+    yu.create_folder()
+    pi.id_translate()
+    pprint(pi.photo_info())
+    pprint(yu.photo_uploader())
