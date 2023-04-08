@@ -48,7 +48,7 @@ VALUES
 
 INSERT INTO collection(id, name, release_year)
 VALUES
-(1,'Defence of TA', '12/12/2023'),
+(1,'Defence of TA', '12/12/2022'),
 (2,'Winners', '15/12/2022'),
 (3,'Rock collection', '15/12/2020'),
 (4,'Relax music', '15/12/2018'),
