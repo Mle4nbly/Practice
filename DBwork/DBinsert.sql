@@ -1,13 +1,3 @@
-DELETE FROM musiciangenre;
-DELETE FROM musicianalbum;
-DELETE FROM trackcollection;
-DELETE FROM musician;
-DELETE FROM genre;
-DELETE FROM track;
-DELETE FROM album;
-DELETE FROM collection;
-
-
 INSERT INTO musician(id, name)
 VALUES
 (1,'ALWAYS WANNA FLY'),
@@ -29,43 +19,43 @@ VALUES
 
 INSERT INTO album(id, name, release_year)
 VALUES
-(1, '322 Dollars', '15/09/2000'),
-(2, 'Once in a major', '15/09/2000'),
-(3, '1 X 9', '15/09/2000'),
-(4, 'Major winner', '15/09/2000'),
-(5, 'The World', '15/09/2000'),
-(6, 'Future', '15/09/2000'),
-(7, 'Moon Adventure', '15/09/2000'),
-(8, 'BreakUP', '15/09/2000');
+(1, '322 Dollars', '20/04/2011'),
+(2, 'Once in a major', '21/03/2019'),
+(3, '1 X 9', '15/09/2008'),
+(4, 'Major winner', '11/11/2020'),
+(5, 'The World', '15/09/2004'),
+(6, 'Future', '15/09/2019'),
+(7, 'Moon Adventure', '15/09/2006'),
+(8, 'BreakUP', '15/09/2007');
 
 INSERT INTO track(id, name, duration, album_id)
 VALUES
-(1, 'Daubi', '00:02:30', 4),
-(2, 'My carry', '00:02:30', 1),
-(3, 'Iceberg BETS', '00:02:30', 7),
+(1, 'Daubi', '00:01:11', 4),
+(2, 'My carry', '00:06:21', 1),
+(3, 'Iceberg BETS', '00:04:01', 7),
 (4, '5 majors', '00:02:30', 2),
-(5, 'NIX casts', '00:02:30', 3),
-(6, 'Joke', '00:02:30', 6),
-(7, '3 years 2 months 2 days', '00:02:30', 1),
-(8, 'Public legend', '00:02:30', 3),
-(9, 'Golovach?', '00:02:30', 3),
-(10, 'Flusk', '00:02:30', 8),
-(11, 'Sunrise', '00:02:30', 5),
+(5, 'NIX casts', '00:01:20', 3),
+(6, 'Joke', '00:03:20', 6),
+(7, '3 years 2 months 2 days', '00:03:22', 1),
+(8, 'Public legend', '00:01:11', 3),
+(9, 'Golovach?', '00:01:11', 3),
+(10, 'Flusk', '00:03:33', 8),
+(11, 'Sunrise', '00:01:11', 5),
 (12, 'Forever all time', '00:02:30', 5),
-(13, 'Just track', '00:02:30', 8),
-(14, 'Just second track', '00:02:30', 6),
-(15, 'Just third track', '00:02:30', 5);
+(13, 'My drem', '00:05:10', 8),
+(14, 'My ym', '00:07:10', 6),
+(15, 'My track', '00:03:30', 5);
 
 INSERT INTO collection(id, name, release_year)
 VALUES
-(1,'Defence of TA', '15/09/2000'),
-(2,'Winners', '15/09/2000'),
-(3,'Rock collection', '15/09/2000'),
-(4,'Relax music', '15/09/2000'),
-(5,'Motivational music', '15/09/2000'),
-(6,'Sad!!', '15/09/2000'),
-(7,'Pop collection', '15/09/2000'),
-(8,'noitcelloc poP', '15/09/2000');
+(1,'Defence of TA', '12/12/2023'),
+(2,'Winners', '15/12/2022'),
+(3,'Rock collection', '15/12/2020'),
+(4,'Relax music', '15/12/2018'),
+(5,'Motivational music', '15/12/2018'),
+(6,'Sad!!', '15/12/2021'),
+(7,'Pop collection', '15/12/2022'),
+(8,'noitcelloc poP', '15/12/2019');
 
 INSERT INTO musiciangenre(musician_id, genre_id)
 VALUES
