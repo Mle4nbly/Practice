@@ -19,28 +19,28 @@ VALUES
 
 INSERT INTO album(id, name, release_year)
 VALUES
-(1, '322 Dollars', '20/04/2011'),
-(2, 'Once in a major', '21/03/2019'),
-(3, '1 X 9', '15/09/2008'),
-(4, 'Major winner', '11/11/2020'),
-(5, 'The World', '15/09/2004'),
-(6, 'Future', '15/09/2019'),
-(7, 'Moon Adventure', '15/09/2006'),
-(8, 'BreakUP', '15/09/2007');
+(1, '322 Dollars', '15/09/2000'),
+(2, 'Once in a major', '15/09/2000'),
+(3, '1 X 9', '15/09/2000'),
+(4, 'Major winner', '15/09/2000'),
+(5, 'The World', '15/09/2000'),
+(6, 'Future', '15/09/2000'),
+(7, 'Moon Adventure', '15/09/2000'),
+(8, 'BreakUP', '15/09/2000');
 
 INSERT INTO track(id, name, duration, album_id)
 VALUES
-(1, 'Daubi', '00:01:11', 4),
-(2, 'My carry', '00:06:21', 1),
-(3, 'Iceberg BETS', '00:04:01', 7),
+(1, 'Daubi', '00:02:30', 4),
+(2, 'My carry', '00:02:30', 1),
+(3, 'Iceberg BETS', '00:02:30', 7),
 (4, '5 majors', '00:02:30', 2),
-(5, 'NIX casts', '00:01:20', 3),
-(6, 'Joke', '00:03:20', 6),
-(7, '3 years 2 months 2 days', '00:03:22', 1),
-(8, 'Public legend', '00:01:11', 3),
-(9, 'Golovach?', '00:01:11', 3),
-(10, 'Flusk', '00:03:33', 8),
-(11, 'Sunrise', '00:01:11', 5),
+(5, 'NIX casts', '00:02:30', 3),
+(6, 'Joke', '00:02:30', 6),
+(7, '3 years 2 months 2 days', '00:02:30', 1),
+(8, 'Public legend', '00:02:30', 3),
+(9, 'Golovach?', '00:02:30', 3),
+(10, 'Flusk', '00:02:30', 8),
+(11, 'Sunrise', '00:02:30', 5),
 (12, 'Forever all time', '00:02:30', 5),
 (13, 'My drem', '00:05:10', 8),
 (14, 'My ym', '00:07:10', 6),
