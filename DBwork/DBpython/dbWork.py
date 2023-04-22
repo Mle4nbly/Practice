@@ -48,16 +48,12 @@ class DB:
         """, (1, number, client_id))
         self.conn.commit()
 
-    def change_client(self, client_id, data_for_change, select):
+    def change_client(self, query, select):
         if select == 1:
-            self.cur.execute("""
-            UPDATE clients SET %s WHERE id=%s;
-            """, (data_for_change, client_id))
+            self.cur.execute(query)
             self.conn.commit()
         elif select == 2:
-            self.cur.execute("""
-            UPDATE clientphone SET number=%s WHERE client_id=%s;
-            """, (data_for_change, client_id))
+            self.cur.execute(query)
             self.conn.commit()
 
     def delete_phone(self, client_id):
@@ -73,38 +69,26 @@ class DB:
         """, (client_id, client_id))
         self.conn.commit()
 
-    def find_client(self, select, data_for_find):
+    def find_client(self, select, query):
         if select == 1:
-            self.cur.execute("""
-            SELECT id, name, surname, email FROM clients
-            WHERE %s;
-            """, (data_for_find))
+            self.cur.execute(query)
             print(self.cur.fetchall())
         elif select == 2:
-            self.cur.execute("""
-            SELECT c.id, c.name, c.surname, c.email FROM clients c
-            JOIN clientphone cp ON cp.client_id = c.id
-            WHERE cp.number=%s;
-            """, (data_for_find))
+            self.cur.execute(query)
             print(self.cur.fetchall())
 
 if __name__ == '__main__':
-    client_id = '1'
-    name = 'Никита'
-    surname = 'Кирсанов'
-    email = '123@gmail.com'
-    number = '123123'
-
+    
     conn = psycopg2.connect(database="client_manager",user='postgres',password='q1w2e3r4tyu')
     with conn.cursor() as cur:
         start = DB(cursor=cur, connect=conn)
-
         start.create_db()
-        start.add_client(name=name, surname=surname ,email=email)
-        start.add_phone(number=number, client_id=1)
+        start.add_client(name='Никита', surname='Кирсанов' ,email='123@gmail.com')
+        start.add_phone(number='+123', client_id='1')
+        # start.delete_phone(client_id='1')
+        # start.delete_client(client_id='1')
 
-        change_select = int(input("""
-        Выберите данные, с которыми хотите работать:
+        change_select = int(input("""\nВыберите данные, с которыми хотите работать:
         1.Имя, фамилия, email;
         2.Номер телефона;
         Введите нужную цифру: """))
@@ -113,8 +97,7 @@ if __name__ == '__main__':
             choice = 1
             counter = 0
             while choice != 0:
-                choice = int(input("""
-                Выберите или добавьте параметры, которые хотите изменить:
+                choice = int(input("""\nВыберите или добавьте параметры, которые хотите изменить:
                 1.Имя;
                 2.Фамилия;
                 3.Email;
@@ -124,75 +107,72 @@ if __name__ == '__main__':
                     name_data = input("\nВведите новое имя: ")
                     counter += 1
                     if counter == 1:
-                        data_for_change = "name=" + name_data
+                        data_for_change = "name='%s'" % name_data
                     else: 
-                        data_for_change = data_for_change + ", name=" + name_data
+                        data_for_change = data_for_change + ", name='%s'" % name_data
                 elif choice == 2:
                     surname_data = input("\nВведите новую фамилию: ")
                     counter += 1
                     if counter == 1:
-                        data_for_change = "surname=" + surname_data
+                        data_for_change = "surname='%s'" % surname_data
                     else:
-                        data_for_change = data_for_change + ", surname=" + surname_data
+                        data_for_change = data_for_change + ", surname='%s'" % surname_data
                 elif choice == 3:
                     email_data = input("\nВведите новый email: ")
                     counter += 1
                     if counter == 1:
-                        data_for_change = "email=" + email_data
+                        data_for_change = "email='%s'" % email_data
                     else:
-                        data_for_change = data_for_change + ", email=" + email_data
-            start.change_client(client_id=client_id, data_for_change=data_for_change, select=change_select)
+                        data_for_change = data_for_change + ", email='%s'" % email_data
+            query = "UPDATE clients SET " + data_for_change + "WHERE id=%s" % '1'
+            start.change_client(query=query, select=change_select)
 
         elif change_select == 2:
-            data_for_change = input("Напишите новый номер телефона: ")
-            start.change_client(client_id=client_id, data_for_change=data_for_change, select=change_select)
+            data_for_change = input("\nНапишите новый номер телефона: ")
+            query = "UPDATE clientphone SET number='%s'" % data_for_change + " WHERE id=%s" % '1'
+            start.change_client(query=query, select=change_select)
 
-        find_select = int(input("""
-        Выберите по каким данным осуществлять поиск:\n
-        # 1. По имени, фамилии и email;\n
-        # 2. По номеру телефона;\n
-        # Введите нужную цифру: 
-        # """))
+        find_select = int(input("""\nВыберите по каким данным осуществлять поиск:
+        1. По имени, фамилии и email;
+        2. По номеру телефона;
+        Введите нужную цифру: """))
 
         if find_select == 1:
             choice = 1
             counter = 0
             while choice != 0:
-                choice = int(input("""
-                Выберите или добавьте параметры, по которым хотите осуществить поиск:\n
-                1.Имя;\n
-                2.Фамилия;\n
-                3.Email;\n
-                0.Выход;\n
-                Выберите нужную цифру: 
-                """))
+                choice = int(input("""\nВыберите или добавьте параметры, по которым хотите осуществить поиск:\n
+                1.Имя;
+                2.Фамилия;
+                3.Email;
+                0.Выход;
+                Выберите нужную цифру: """))
                 if choice == 1:
-                    name_data = input("Введите имя: ")
+                    name_data = input("\nВведите имя: ")
                     counter += 1
                     if counter == 1:
-                        data_for_find = 'name=' + name_data
+                        data_for_find = "name='%s'" % name_data
                     else:
-                        data_for_find = data_for_find + ' AND name=' + name_data
+                        data_for_find = data_for_find + " AND name='%s'" % name_data
                 elif choice == 2:
-                    surname_data = input("Введите фамилию: ")
+                    surname_data = input("\nВведите фамилию: ")
                     counter += 1
                     if counter == 1:
-                        data_for_find = 'surname=' + surname_data
+                        data_for_find = "surname='%s'" % surname_data
                     else:
-                        data_for_find = data_for_find + ' AND surname=' + surname_data
+                        data_for_find = data_for_find + " AND surname='%s'" % surname_data
                 elif choice == 3:
-                    email_data = input("Введите email: ")
+                    email_data = input("\nВведите email: ")
                     counter += 1
                     if counter == 1:
-                        data_for_find = 'email=' + email_data
+                        data_for_find = "email='%s'" % email_data
                     else:
-                        data_for_find = data_for_find + 'email=' + email_data
-            start.find_client(select=find_select, data_for_find=data_for_find)
+                        data_for_find = data_for_find + "email='%s'" % email_data
+            query = "SELECT id, name, surname, email FROM clients WHERE " + data_for_find + ";"            
+            start.find_client(select=find_select, query=query)
             
         elif find_select == 2:
-            data_for_find = input("Введите номер телефона, по которому хотите осуществить поиск: ")
-            start.find_client(select=find_select, data_for_find=data_for_find)
-
-        start.delete_phone(client_id=client_id)
-        start.delete_client(client_id=client_id)
+            data_for_find = input("\nВведите номер телефона, по которому хотите осуществить поиск: ")
+            query = "SELECT c.id, c.name, c.surname, c.email FROM clients c JOIN clientphone cp ON cp.client_id = c.id WHERE cp.number='%s'" % data_for_find + ";"
+            start.find_client(select=find_select, query=query)
     conn.close()
