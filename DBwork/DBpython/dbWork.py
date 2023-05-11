@@ -176,3 +176,5 @@ if __name__ == '__main__':
             query = "SELECT c.id, c.name, c.surname, c.email FROM clients c JOIN clientphone cp ON cp.client_id = c.id WHERE cp.number='%s'" % data_for_find + ";"
             start.find_client(select=find_select, query=query)
     conn.close()
+
+# a comment 
