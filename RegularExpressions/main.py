@@ -51,6 +51,8 @@ def removing_dublicates():
             column[5] = contact[5]
           if column[6] == '':
             column[6] = contact[6]
+          if len(column) > 7:
+            del column[7:len(column)]
             
     for column in contacts_list:
       if column not in final_list:
