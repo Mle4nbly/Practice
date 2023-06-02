@@ -1,364 +1,604 @@
 {
     "items": [
         {
-            "link": "https://spb.hh.ru/vacancy/80580029?from=vacancy_search_list&query=python+flask+django",
-            "salary": "140 000 – 250 000 руб.",
-            "company": "AERODISK",
-            "city": "Москва, Калужская"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80400921?from=vacancy_search_list&query=python+flask+django",
-            "salary": "70 000 – 100 000 руб.",
-            "company": "РусЭкспресс",
+            "link": "https://spb.hh.ru/vacancy/80028912?from=vacancy_search_list&query=junior+python",
+            "salary": "60 000 – 80 000 руб.",
+            "company": "ИП Щербин Алексей Сергеевич",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80050718?from=vacancy_search_list&query=python+flask+django",
-            "salary": "60 000 – 140 000 руб.",
-            "company": "ООО РА Дельта",
-            "city": "Москва"
+            "link": "https://spb.hh.ru/vacancy/79936952?from=vacancy_search_list&query=junior+python",
+            "salary": "до 80 000 руб.",
+            "company": "ООО Новакабель",
+            "city": "Санкт-Петербург"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/79895487?from=vacancy_search_list&query=python+flask+django",
-            "salary": "190 000 – 220 000 руб.",
-            "company": "ЧУ ДО Московская школа программистов",
-            "city": "Москва, Ботанический сад и еще 1 "
+            "link": "https://spb.hh.ru/vacancy/76086723?from=vacancy_search_list&query=junior+python",
+            "salary": "1 000 – 2 000 USD",
+            "company": "ООО ГравиЛинк",
+            "city": "Санкт-Петербург"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80821125?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/80883238?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
-            "company": "SayHire.agency",
+            "company": "Лента, федеральная розничная сеть, IT ",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/79817887?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/80793878?from=vacancy_search_list&query=junior+python",
+            "salary": "до 70 000 руб.",
+            "company": "ООО Домконнект",
+            "city": "Санкт-Петербург"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80780828?from=vacancy_search_list&query=junior+python",
+            "salary": "50 000 – 70 000 руб.",
+            "company": "Решу ЕГЭ",
+            "city": "Санкт-Петербург"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80747866?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
-            "company": "WelbeX",
+            "company": "ООО Go Ahead",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80024403?from=vacancy_search_list&query=python+flask+django",
-            "salary": "200 000 – 350 000 руб.",
-            "company": "Carbon Soft",
-            "city": "Москва, Проспект Вернадского"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/77601657?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/79324482?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
-            "company": "Максмарт",
+            "company": "билайн: ИТ, Data, Digital",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80672896?from=vacancy_search_list&query=python+flask+django",
-            "salary": "до 320 000 руб.",
-            "company": "Точка",
+            "link": "https://spb.hh.ru/vacancy/80602682?from=vacancy_search_list&query=junior+python",
+            "salary": "от 85 000 руб.",
+            "company": "ООО Ангара Сервис",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80672968?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/80672968?from=vacancy_search_list&query=junior+python",
             "salary": "от 60 000 руб.",
             "company": "ООО Виста",
             "city": "Санкт-Петербург"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80679805?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "Oil and Gas Production Tools",
-            "city": "Санкт-Петербург"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80867007?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "Beorg",
-            "city": "Москва, Технопарк"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80582319?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "АО Лотереи Москвы",
+            "link": "https://spb.hh.ru/vacancy/80282114?from=vacancy_search_list&query=junior+python",
+            "salary": "60 000 – 80 000 руб.",
+            "company": "ИП Щербин Алексей Сергеевич",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80053266?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/81033317?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ГБУ МО МОМИАЦ",
+            "city": "Москва, Мякинино и еще 1 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80506223?from=vacancy_search_list&query=junior+python",
+            "salary": "120 000 – 160 000 руб.",
+            "company": "Sminex-Интеко",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80744149?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "FIX",
+            "city": "Санкт-Петербург"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80940546?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Код Грин Инжиниринг",
+            "city": "Санкт-Петербург, Чёрная речка"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79326002?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Saber Interactive",
+            "city": "Санкт-Петербург"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79058878?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
             "company": "Lesta Games",
-            "city": "Москва, Савёловская и еще 2 "
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/70052938?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "Группа компаний Астра",
-            "city": "Москва, Верхние Котлы и еще 1 "
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79219903?from=vacancy_search_list&query=python+flask+django",
-            "salary": "до 350 000 руб.",
-            "company": "Фаворит, Международный кадровый центр",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80578992?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "ООО Napoleon IT",
             "city": "Санкт-Петербург"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80506144?from=vacancy_search_list&query=python+flask+django",
-            "salary": "от 200 000 руб.",
-            "company": "ООО ВижнЛабс (VisionLabs)",
+            "link": "https://spb.hh.ru/vacancy/80732832?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "РЕСО-Гарантия, САО",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80870187?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "ООО WaveAccess",
-            "city": "Санкт-Петербург"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80648193?from=vacancy_search_list&query=python+flask+django",
-            "salary": "200 000 – 350 000 руб.",
-            "company": "ООО Кадровый центр Президент",
-            "city": "Москва, Бауманская"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80517879?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "Positive Technologies",
-            "city": "Санкт-Петербург"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/75697177?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "АО АСТ",
-            "city": "Москва, Волгоградский проспект"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80316527?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "Deventica",
-            "city": "Санкт-Петербург"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80198541?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "ИП Серяков Виктор Юрьевич",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80729828?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "HEADS and HANDS",
-            "city": "Санкт-Петербург"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80604425?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "ООО Цифровые Сервисы",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/77958176?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "INSITECH Development",
-            "city": "Москва, Савёловская"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79210452?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "Центр Методического Обеспечения Оптимизации Процессов Государственного Управления в Московской области",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/77296899?from=vacancy_search_list&query=python+flask+django",
-            "salary": "до 300 000 руб.",
-            "company": "SberTech",
-            "city": "Москва, Кожуховская"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79165199?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "INSITECH Development",
-            "city": "Санкт-Петербург"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80122527?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "Сбер. IT",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79848315?from=vacancy_search_list&query=python+flask+django",
-            "salary": "от 400 000 руб.",
-            "company": "АО Международный аэропорт Шереметьево",
-            "city": "Москва, Красные ворота"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79314802?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "Интерфакс",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80714456?from=vacancy_search_list&query=python+flask+django",
-            "salary": "от 90 000 руб.",
-            "company": "ООО НПК РВТС",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79917370?from=vacancy_search_list&query=python+flask+django",
-            "salary": "200 000 – 350 000 руб.",
-            "company": "ООО Кадровый центр Президент",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79732131?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "ООО БИЗНЕС КОННЕКТ",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79584451?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "Центр Методического Обеспечения Оптимизации Процессов Государственного Управления в Московской области",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/78374313?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "Сбер. IT",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/78743031?from=vacancy_search_list&query=python+flask+django",
-            "salary": "до 180 000 руб.",
-            "company": "АО НИИ МАСШТАБ",
-            "city": "Санкт-Петербург"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80168664?from=vacancy_search_list&query=python+flask+django",
-            "salary": "от 150 000 руб.",
-            "company": "ООО Lerteco",
-            "city": "Санкт-Петербург"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/76849150?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "ООО Бристоль, сеть магазинов",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79730278?from=vacancy_search_list&query=python+flask+django",
-            "salary": "140 000 – 210 000 руб.",
-            "company": "Surf IT",
-            "city": "Санкт-Петербург"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/78910554?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "YADRO",
-            "city": "Санкт-Петербург"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79739335?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": "ООО «РУСАГРО», Группа компаний",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/79807693?from=vacancy_search_list&query=python+flask+django",
-            "salary": "Не указано",
-            "company": " Schlumberger. АО ИКФ-Сервис. Офис",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/80049283?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/80034814?from=vacancy_search_list&query=junior+python",
             "salary": "от 45 000 руб.",
             "company": "ООО Траектория",
             "city": "Санкт-Петербург, Лесная и еще 3 "
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80780414?from=vacancy_search_list&query=python+flask+django",
-            "salary": "80 000 – 200 000 руб.",
-            "company": "ИП Гусев Святослав Олегович",
+            "link": "https://spb.hh.ru/vacancy/80845401?from=vacancy_search_list&query=junior+python",
+            "salary": "80 000 – 120 000 руб.",
+            "company": "ООО Специальный Технологический Центр (ООО СТЦ)",
+            "city": "Санкт-Петербург, Политехническая"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80820237?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Облачные сети",
+            "city": "Москва, Марьина Роща и еще 2 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80665553?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Цифровые стратегии",
+            "city": "Москва, Электрозаводская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80460430?from=vacancy_search_list&query=junior+python",
+            "salary": "от 80 000 руб.",
+            "company": "ООО Компас",
+            "city": "Санкт-Петербург, Василеостровская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80795575?from=vacancy_search_list&query=junior+python",
+            "salary": "45 000 – 60 000 руб.",
+            "company": "ООО ТРИНИТИ ПРОДЖЕКТС",
+            "city": "Москва, Саларьево и еще 1 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80795255?from=vacancy_search_list&query=junior+python",
+            "salary": "от 200 000 руб.",
+            "company": "Джетлин",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80780415?from=vacancy_search_list&query=python+flask+django",
-            "salary": "80 000 – 200 000 руб.",
-            "company": "ИП Гусев Святослав Олегович",
-            "city": "Санкт-Петербург"
+            "link": "https://spb.hh.ru/vacancy/80602443?from=vacancy_search_list&query=junior+python",
+            "salary": "от 60 000 руб.",
+            "company": "Лаборатория геномной инженерии МФТИ",
+            "city": "Москва, Долгопрудная и еще 1 "
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80610805?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/80207546?from=vacancy_search_list&query=junior+python",
+            "salary": "до 250 000 руб.",
+            "company": "ООО Интегрированные системы управления",
+            "city": "Москва, Академическая и еще 1 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80044735?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "BI.ZONE Направление Разработка",
+            "city": "Москва, Бауманская и еще 2 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80045254?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Сервионика",
+            "city": "Москва, Выставочная"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80022843?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Skillhouse",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80032687?from=vacancy_search_list&query=junior+python",
+            "salary": "30 000 – 60 000 руб.",
+            "company": "amoCRM",
+            "city": "Москва, Таганская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80431819?from=vacancy_search_list&query=junior+python",
+            "salary": "100 000 – 400 000 руб.",
+            "company": "ООО НЬЮЭРАМЕДИА",
+            "city": "Москва, Деловой центр"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79115441?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Сбер. Data Science",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/78352954?from=vacancy_search_list&query=junior+python",
+            "salary": "от 50 000 руб.",
+            "company": "ИТЕРАНЕТ",
+            "city": "Москва, Киевская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79250830?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Интерфакс",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/78450562?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Area of Games",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79908693?from=vacancy_search_list&query=junior+python",
+            "salary": "45 000 – 80 000 руб.",
+            "company": "NOVA",
+            "city": "Москва, Динамо"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80610805?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
             "company": "ООО Систем Дизайн Индастрис",
             "city": "Санкт-Петербург"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/67864415?from=vacancy_search_list&query=python+flask+django",
-            "salary": "до 80 000 руб.",
-            "company": "Hexlet",
-            "city": "Москва"
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/77302829?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/80476435?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
-            "company": "ООО АйТи Интеллект",
+            "company": "ООО ИНЛАЙН",
+            "city": "Санкт-Петербург"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80456354?from=vacancy_search_list&query=junior+python",
+            "salary": "до 80 000 руб.",
+            "company": "Bewise.ai",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/79871781?from=vacancy_search_list&query=python+flask+django",
-            "salary": "от 140 000 руб.",
-            "company": "АО Гринатом",
+            "link": "https://spb.hh.ru/vacancy/80946628?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Онлайн-школа Фоксфорд",
+            "city": "Москва, Тульская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/77999758?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Группа компаний Астра",
+            "city": "Москва, Верхние Котлы и еще 1 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/78773817?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Between Exchange",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80790789?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/77537035?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО ИК СИБИНТЕК",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80483625?from=vacancy_search_list&query=junior+python",
+            "salary": "от 15 000 руб.",
+            "company": "ПитерСофт",
+            "city": "Санкт-Петербург"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/81044664?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Аквариус, Группа компаний",
+            "city": "Москва, Румянцево"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/81049446?from=vacancy_search_list&query=junior+python",
+            "salary": "до 120 000 руб.",
+            "company": "ЧУ ДО Московская школа программистов",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80424239?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "билайн: ИТ, Data, Digital",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80456766?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО ПроКомплаенс",
+            "city": "Москва, Киевская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/81030576?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Иви",
+            "city": "Москва, Дмитровская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/77339876?from=vacancy_search_list&query=junior+python",
+            "salary": "от 100 000 руб.",
+            "company": "Цифровые решения, НПП",
+            "city": "Москва, Авиамоторная"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79908003?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "FutureToday",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80912865?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ЛАНИТ. Департамент корпоративных систем",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/72731102?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО НТ Прогресс",
+            "city": "Москва, Автозаводская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80259611?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Иви",
+            "city": "Москва, Дмитровская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80448170?from=vacancy_search_list&query=junior+python",
+            "salary": "от 250 000 руб.",
+            "company": "Первый Бит",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80825568?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "НИЦ СПб ЭТУ (Научно-инженерный центр Санкт-Петербургского электротехнического университета)",
+            "city": "Санкт-Петербург, Площадь Мужества"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80790789?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
             "company": "Sape",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/79999266?from=vacancy_search_list&query=python+flask+django",
-            "salary": "180 000 – 250 000 руб.",
-            "company": "ООО РА Дельта",
+            "link": "https://spb.hh.ru/vacancy/81045375?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Манзони",
+            "city": "Санкт-Петербург, Садовая и еще 2 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79719614?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "МАГНИТ, Розничная сеть",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80232704?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/80027699?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
-            "company": "Группа Самолет",
+            "company": "Иннотех, Группа компаний",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80649106?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/80738210?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
-            "company": "VK, ВКонтакте",
+            "company": "ПАО МТС",
             "city": "Москва"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80649107?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/77907673?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
-            "company": "VK, ВКонтакте",
+            "company": "ПАО ВТБ, Подразделения Поддержки и Контроля",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80739761?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ПАО МТС",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79510215?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Gear Games",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80727034?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Естественный Интеллект",
+            "city": "Санкт-Петербург, Спортивная"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80225550?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Самокат (ООО Умный ритейл)",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80225551?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Самокат (ООО Умный ритейл)",
             "city": "Санкт-Петербург"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/80301039?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/80681566?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
-            "company": "ИВ РОШЕ",
-            "city": "Москва, Белорусская"
+            "company": "ГКУ Инфогород",
+            "city": "Москва, Курская"
         },
         {
-            "link": "https://spb.hh.ru/vacancy/79582840?from=vacancy_search_list&query=python+flask+django",
+            "link": "https://spb.hh.ru/vacancy/80679724?from=vacancy_search_list&query=junior+python",
             "salary": "Не указано",
-            "company": "Сбер. IT",
-            "city": "Москва, Кутузовская и еще 1 "
-        },
-        {
-            "link": "https://spb.hh.ru/vacancy/72312345?from=vacancy_search_list&query=python+flask+django",
-            "salary": "до 400 000 руб.",
-            "company": "Rubbles",
+            "company": "EGAR TECHNOLOGY, INC.",
             "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/42720342?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "НИИ Вектор",
+            "city": "Санкт-Петербург, Лесная"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80642100?from=vacancy_search_list&query=junior+python",
+            "salary": "до 70 000 руб.",
+            "company": "ООО Кредитит",
+            "city": "Москва, Сухаревская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80676484?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "АО НИИАС",
+            "city": "Москва, Красные ворота"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80571994?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Chatfuel",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79680809?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ПАО ВТБ, Технологический блок",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80530601?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ЛАНИТ. Отделение автоматизации и защиты информационных систем",
+            "city": "Москва, Алексеевская и еще 2 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79680709?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ПАО ВТБ, Корпоративно-инвестиционный бизнес",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79922988?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ПАО ВТБ, Технологический блок",
+            "city": "Санкт-Петербург"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79922781?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ПАО ВТБ, Технологический блок",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79680782?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ПАО ВТБ, Технологический блок",
+            "city": "Санкт-Петербург"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/66231811?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ФГУП Центральный научно-исследовательский институт химии и механики",
+            "city": "Москва, Коломенская и еще 1 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80259314?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Тинькофф",
+            "city": "Москва, Водный стадион"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/68489073?from=vacancy_search_list&query=junior+python",
+            "salary": "100 000 – 111 000 руб.",
+            "company": "Никс",
+            "city": "Москва, Алексеевская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79110506?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Физгео",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/75908234?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "БКС Банк IT & Digital",
+            "city": "Москва, Проспект Мира"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/77913857?from=vacancy_search_list&query=junior+python",
+            "salary": "до 77 000 руб.",
+            "company": "ООО Базальт СПО",
+            "city": "Москва, Дмитровская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80238850?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Инфотекс Интернет Траст",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/66229543?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ФГУП Центральный научно-исследовательский институт химии и механики",
+            "city": "Москва, Коломенская и еще 1 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80191855?from=vacancy_search_list&query=junior+python",
+            "salary": "40 000 – 100 000 руб.",
+            "company": "ООО Точка Оплаты",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80164755?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Правительство Москвы",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80171244?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Вкусно — и точка",
+            "city": "Москва, Добрынинская и еще 2 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80121939?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Брефи маркетинг",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80139978?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Ozon Офис и Коммерция",
+            "city": "Москва, Выставочная и еще 2 "
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80098005?from=vacancy_search_list&query=junior+python",
+            "salary": "40 000 – 50 000 руб.",
+            "company": "ГБОУ Школа № 630 Приморского района",
+            "city": "Санкт-Петербург"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80071348?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Лига Цифровой Экономики",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79058266?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Saber Interactive",
+            "city": "Санкт-Петербург"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79607653?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "Pride Games Studio",
+            "city": "Санкт-Петербург, Приморская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/79055691?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ГКУ Инфогород",
+            "city": "Москва"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/76970046?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "ООО Раймс Мьюзик",
+            "city": "Санкт-Петербург, Горьковская"
+        },
+        {
+            "link": "https://spb.hh.ru/vacancy/80012602?from=vacancy_search_list&query=junior+python",
+            "salary": "Не указано",
+            "company": "YADRO",
+            "city": "Санкт-Петербург, Площадь Ленина"
         }
     ]
 }

@@ -41,6 +41,6 @@ if __name__ == '__main__':
     data_for_json = {}
     vacancy_data = []
     for page in range (0, 10):
-        url = f'https://spb.hh.ru/search/vacancy?text=python+flask+django&area=1&area=2&page={page}'
+        url = f'https://spb.hh.ru/search/vacancy?text=junior+python&area=1&area=2&page={page}'
         hh_parser(url=url)
     writing_to_json()
