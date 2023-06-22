@@ -1,9 +1,12 @@
 import psycopg2
 
+
 class DB:
+
     def __init__(self, cursor, connect):
         self.conn = connect
         self.cur = cursor
+
 
     def create_db(self):
         self.cur.execute("""
@@ -29,6 +32,7 @@ class DB:
         """)
         self.conn.commit()
 
+
     def add_client(self, name, surname, email):
         self.cur.execute("""
         DELETE FROM clientphone;
@@ -41,12 +45,14 @@ class DB:
         """, (1, name, surname, email))
         self.conn.commit()
 
+
     def add_phone(self, number, client_id):
         self.cur.execute("""
         INSERT INTO clientphone(id, number, client_id)
         VALUES (%s,%s,%s)
         """, (1, number, client_id))
         self.conn.commit()
+
 
     def change_client(self, query, select):
         if select == 1:
@@ -56,11 +62,13 @@ class DB:
             self.cur.execute(query)
             self.conn.commit()
 
+
     def delete_phone(self, client_id):
         self.cur.execute("""
         DELETE FROM clientphone WHERE client_id=%s;
         """, (client_id))
         self.conn.commit()
+
 
     def delete_client(self, client_id):
         self.cur.execute("""
@@ -69,6 +77,7 @@ class DB:
         """, (client_id, client_id))
         self.conn.commit()
 
+
     def find_client(self, select, query):
         if select == 1:
             self.cur.execute(query)
@@ -76,6 +85,7 @@ class DB:
         elif select == 2:
             self.cur.execute(query)
             print(self.cur.fetchall())
+
 
 if __name__ == '__main__':
     

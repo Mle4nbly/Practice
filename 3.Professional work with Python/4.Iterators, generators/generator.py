@@ -11,7 +11,8 @@ def flat_generator(list_of_lists):
             main_list_cursor += 1
         if main_list_cursor < len(list_of_lists):
             yield list_of_lists[main_list_cursor][nested_list_cursor]
-    
+
+   
 def test_2():
 
     list_of_lists_1 = [
@@ -30,6 +31,7 @@ def test_2():
     assert list(flat_generator(list_of_lists_1)) == ['a', 'b', 'c', 'd', 'e', 'f', 'h', False, 1, 2, None]
 
     assert isinstance(flat_generator(list_of_lists_1), types.GeneratorType)
+
 
 if __name__ == '__main__':
     test_2()

@@ -2,16 +2,19 @@ from pprint import pprint
 import re
 import csv
 
+
 with open("RegularExpressions\phonebook_raw.csv", encoding='utf-8') as f:
   rows = csv.reader(f, delimiter=",")
   contacts_list = list(rows)
   final_list = []
+
 
 def formatting_numbers():
   phone_pattern = re.compile(r'(8|\+7)\s*\(*(\d{3})\)*[-\s]*(\d{3})[-\s]*(\d{2})[-\s]*(\d{2})(\s)*\(*(доб.)*\s*(\d+)*\)*')
   phone_substitution = r'+7(\2)\3-\4-\5\6\7\8'
   for column in contacts_list:
     column[5] = phone_pattern.sub(phone_substitution, column[5])
+
 
 def formatting_names():
     name_pattern = r'([А-Я])'
@@ -30,6 +33,7 @@ def formatting_names():
         column[0] = re.sub(name_pattern, name_substitution, line).split()[0]
         column[1] = ''
         column[2] = ''
+
 
 def removing_dublicates():
     for column in contacts_list:
@@ -57,6 +61,7 @@ def removing_dublicates():
     for column in contacts_list:
       if column not in final_list:
         final_list.append(column)                
+
 
 if __name__ == '__main__':
   formatting_numbers()

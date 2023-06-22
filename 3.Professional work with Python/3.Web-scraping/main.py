@@ -4,11 +4,13 @@ from fake_headers import Headers
 import os
 import json
 
+
 def get_headers():
     return Headers(browser="firefox", os="win").generate()
 
 def get_text(url):
     return requests.get(url=url, headers=get_headers()).text
+
 
 def hh_parser(url):
     html = get_text(url)
@@ -32,10 +34,12 @@ def hh_parser(url):
             'city': city
         })
     
+
 def writing_to_json():
     with open(os.path.join(os.path.dirname(__file__),'vacancies.json'), 'w', encoding='utf8') as f:
         data_for_json['items'] = vacancy_data
         json.dump(data_for_json, f, ensure_ascii=False, indent=4)
+
 
 if __name__ == '__main__':
     data_for_json = {}
