@@ -1,4 +1,4 @@
-class X1Ogame:
+class XOgame:
     def __init__(self):
         self.ground = {
             1: 1, 2: 2, 3: 3,
